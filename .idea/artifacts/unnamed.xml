@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="archive" name="unnamed.jar">
+      <element id="library" level="project" name="org.vimalselvam.testng.listener" />
+      <element id="library" level="project" name="org.testng:testng:6.11" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,33 @@
+[
+  {
+    "description": "这是一个带有cookie的get请求",
+    "request": {
+      "uri": "/get/cookie",
+      "method": "get",
+      "cookies": {
+          "login": "true"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=bgk"
+      },
+      "text": "这是一个带有cookies信息才能访问的请求"
+    }
+  },{
+      "description": "这是一个带有cookie的post请求",
+      "request": {
+        "uri": "/post/cookie",
+        "method": "post",
+        "cookies": {
+          "login": "true"
+        }
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "text/html;charset=bgk"
+        },
+        "text": "这是一个带cookie信息才能提交的请求"
+      }
+ }
+]
